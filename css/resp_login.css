@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 700px){
+    .email input , .password input {
+        width: 15rem;
+        height: 2rem;
+    }
+    
+    .button input {
+        width: 8rem;
+        height: 2rem;
+    }
+    .button input, span , a{
+        font-size: .8rem;
+    }
+
+}

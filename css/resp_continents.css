@@ -1,0 +1,310 @@
+
+:root {
+    --primary-color: #CA9E67;
+    --hover-color: #936037;
+    --gradient: linear-gradient(to left, #ff9a5f, #CA9E67);
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .card-state {
+        width: 18rem;
+        height: 13rem;
+    }
+    
+    .title-page {
+        height: 25rem;
+    }
+    
+    .title-page h1 {
+        font-size: 2.5rem;
+    }
+    
+    .title-page p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-states {
+        gap: 0.3rem;
+    }
+    
+    .card-state {
+        width: 16rem;
+        height: 12rem;
+        margin: 0.8rem 0.1rem;
+    }
+    
+    .title-card h2 {
+        font-size: 1.1rem;
+    }
+    
+    .title-page {
+        height: 22rem;
+    }
+    
+    .title-page h1 {
+        font-size: 2.2rem;
+    }
+    
+    .title-page p {
+        font-size: 1.2rem;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-states {
+        justify-content: center;
+    }
+    
+    .card-state {
+        width: 14rem;
+        height: 10rem;
+        margin: 0.6rem 0.1rem;
+    }
+    
+    .title-card {
+        top: 0.5rem;
+    }
+    
+    .title-card h2 {
+        font-size: 1rem;
+    }
+    
+    .title-page {
+        height: 20rem;
+    }
+    
+    .title-page h1 {
+        font-size: 2rem;
+    }
+    
+    .title-page p {
+        font-size: 1.1rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-states {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.2rem;
+    }
+    
+    .card-state {
+        width: 100%;
+        height: 8rem;
+        margin: 0.4rem 0.05rem;
+    }
+    
+    .title-card {
+        top: 0.3rem;
+        padding: 0.1rem 0.3rem;
+    }
+    
+    .title-card h2 {
+        font-size: 0.8rem;
+    }
+    
+    .title-page {
+        height: 18rem;
+    }
+    
+    .title-page h1 {
+        font-size: 1.8rem;
+    }
+    
+    .title-page p {
+        font-size: 1rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card-state {
+        height: 6rem;
+    }
+    
+    .title-card h2 {
+        font-size: 0.7rem;
+    }
+    
+    .title-page {
+        height: 15rem;
+    }
+    
+    .title-page h1 {
+        font-size: 1.5rem;
+    }
+    
+    .title-page p {
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    header {
+        padding: .5rem 2rem;
+    }
+    
+    .logo img {
+        width: 7rem;
+    }
+    
+    .links-head {
+        gap: 2rem;
+    }
+    
+    .links-head a {
+        padding: 0.6rem 1rem;
+        font-size: 1.1rem;
+    }
+    
+    .footer-content {
+        padding: 2rem 5rem;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    header {
+        padding: .1rem 1rem;
+    }
+    
+    .logo img {
+        width: 6rem;
+    }
+    
+    .links-head {
+        gap: 1rem;
+    }
+    
+    .links-head a {
+        padding: 0.5rem 0.7rem;
+        font-size: 1rem;
+    }
+    
+    .footer-content {
+        padding: 1.5rem 3rem;
+    }
+    
+    .footer-section h4 {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .logo img {
+        width: 5.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .links-head {
+        gap: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .links-head a {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+    
+    .links-head a span {
+        display: none;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        padding: 1.5rem 2rem;
+    }
+    
+    .footer-section {
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer-section h4 {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .social-icons {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+    
+    .logo img {
+        width: 5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .links-head {
+        gap: 0.3rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+    }
+    
+    .links-head a {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .links-head a span {
+        display: none;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .footer-section {
+        margin-bottom: 1rem;
+    }
+    
+    .footer-section h4 {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer-section ul li a {
+        font-size: 0.7rem;
+    }
+    
+    .social-icons {
+        align-self: center;
+        gap: 0.4rem;
+    }
+    
+    .copyright p {
+        font-size: 0.7rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .links-head {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .links-head a {
+        margin: 0.2rem;
+    }
+}

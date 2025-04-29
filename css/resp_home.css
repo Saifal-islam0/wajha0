@@ -1,0 +1,309 @@
+
+:root {
+    --primary-color: #CA9E67;
+    --hover-color: #936037;
+    --gradient: linear-gradient(to left, #ff9a5f, #CA9E67);
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 1200px) {
+    .title-hero h1 {
+        width: 70rem;
+        font-size: 1.5rem;
+    }
+    
+    .Continents {
+        gap: 2rem;
+    }
+    
+    .card-continents {
+        width: 180px;
+        height: 180px;
+    }
+    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .title-hero h1 {
+        width: 60rem;
+        font-size: 1.4rem;
+    }
+    
+    input[type="search"]:focus {
+        width: 25rem;
+    }
+    
+    .card-continents {
+        width: 160px;
+        height: 160px;
+    }
+    
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    header {
+        padding: .1rem 1rem;
+    }
+    
+    .logo img {
+        width: 6rem;
+    }
+    
+    .links-head {
+        gap: 1rem;
+    }
+    
+    .links-head a {
+        padding: 0.5rem 0.7rem;
+    }
+    
+    .btn-head a {
+        padding: 0.6rem 1.2rem;
+    }
+    
+    .title-hero h1 {
+        width: 45rem;
+        font-size: 1.3rem;
+    }
+    
+    .title-hero h1 span {
+        font-size: 1.8rem;
+    }
+    
+    input[type="search"] {
+        width: 18rem;
+    }
+    
+    input[type="search"]:focus {
+        width: 22rem;
+    }
+    
+    .card-continents {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .img-card {
+        height: 7rem;
+    }
+    
+    .img-card img {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .title-card h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .logo img {
+        width: 5.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .links-head {
+        gap: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .links-head a {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+    
+    .links-head a span {
+        display: none;
+    }
+    
+    .btn-head a {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .hero {
+        height: 30rem;
+    }
+    
+    .title-hero h1 {
+        width: 30rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .title-hero h1 span {
+        font-size: 1.6rem;
+    }
+    
+    input[type="search"] {
+        width: 15rem;
+    }
+    
+    input[type="search"]:focus {
+        width: 18rem;
+    }
+    
+    .card-continents {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .img-card {
+        height: 6rem;
+    }
+    
+    .img-card img {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .title-card h2 {
+        font-size: 1rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-section {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+    
+    .logo img {
+        width: 5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .links-head {
+        gap: 0.3rem;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+    }
+    
+    .links-head a {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .links-head a span {
+        display: none;
+    }
+    
+    .btn-head {
+        gap: 0.5rem;
+    }
+    
+    .btn-head a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .hero {
+        height: 25rem;
+    }
+    
+    .title-hero h1 {
+        width: 90%;
+        max-width: 20rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .title-hero h1 span {
+        font-size: 1.4rem;
+    }
+    
+    input[type="search"] {
+        width: 12rem;
+        height: 2.2rem;
+    }
+    
+    input[type="search"]:focus {
+        width: 15rem;
+        height: 2.5rem;
+    }
+    
+    input[type="button"] {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .section-categories {
+        padding: 2rem 0;
+    }
+    
+    .title-categories h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .Continents {
+        gap: 1rem;
+    }
+    
+    .card-continents {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .img-card {
+        height: 5rem;
+    }
+    
+    .img-card img {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .title-card h2 {
+        font-size: 0.8rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .footer-section {
+        margin-bottom: 1rem;
+    }
+    
+    .footer-section h4 {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .footer-section ul li a {
+        font-size: 0.7rem;
+    }
+    
+    .social-icons {
+        gap: 0.4rem;
+    }
+    
+    .copyright p {
+        font-size: 0.7rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .links-head {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
